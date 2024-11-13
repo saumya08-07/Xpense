@@ -1,0 +1,74 @@
+.main-header {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.main-header i {
+    margin-left: 20px;
+    transform: translateY(3px);
+}
+
+.form-container {
+    margin-top: 5%;
+    background-color: red;
+    width: 600px;
+    padding: 40px;
+    color: white;
+    background: rgba(36, 36, 36, 0.5);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+}
+
+.label-header {
+    height: 80px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.expense-fields {
+    font-size:  1.2em;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 0 1px;
+}
+
+.expense-fields::placeholder {
+    color: white;
+}
+
+.expense-fields:focus {
+    background: none;
+    outline: none;
+}
+
+.add-btn-wrap {
+    margin-top: 20px;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+.update-btn {
+    width: 150px;
+    height: 70px;
+    border: none;
+    border-radius: 35px;
+    font-size: 1.8em;
+    font-weight: 500;
+    color: #817DFF;
+    position: absolute;
+    right: 0;
+}
+
+.update-btn:hover {
+    border: 2px solid #817DFF;
+    color: white;
+    background: none;
+}
